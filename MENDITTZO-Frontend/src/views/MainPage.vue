@@ -108,7 +108,7 @@ onMounted(() => {
 
     <div id="books-and-chatrooms">
       <article class="list-div">
-        <h2>리뷰많은 책test4</h2>
+        <h2>리뷰많은 책test5</h2>
         <div class="chat" v-for="book in bestBooks">
           <div class="list-left">
             <img class="bmk-image" src="../assets/image/bookmark.png" alt="북마크이미지">
