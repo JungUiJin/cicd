@@ -4,7 +4,7 @@ import router from "@/router/router.js";
 import axios from "axios";
 import {createPinia} from "pinia";
 
-axios.defaults.baseURL = 'http://localhost:8080/api/v1';
+axios.defaults.baseURL = '/boot'; // ingress 설정으로 인해 변경
 const pinia = createPinia();
 
 const app = createApp(App); // Vue 애플리케이션 생성

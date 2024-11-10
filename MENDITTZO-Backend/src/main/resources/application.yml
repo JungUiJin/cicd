@@ -15,8 +15,8 @@ spring:
       username: "elastic"
       password: "elastic"
 
-  config:
-    import: "classpath:API-KEY.yml"
+#  config:
+#    import: "classpath:API-KEY.yml"
 
   jpa:
     hibernate:
