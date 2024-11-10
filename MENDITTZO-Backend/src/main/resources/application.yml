@@ -5,7 +5,7 @@ springdoc:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:${DB_PORT}/${DB_DBNAME}
+    url: jdbc:mariadb://mariadb-service.default.svc.cluster.local:3306/debook_db
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
 
