@@ -15,9 +15,6 @@ spring:
       username: "elastic"
       password: "elastic"
 
-#  config:
-#    import: "classpath:API-KEY.yml"
-
   jpa:
     hibernate:
       ddl-auto: update
