@@ -16,7 +16,7 @@ const handleKakaoLogin = async () => {
   try {
     console.log("백엔드 서버에서 카카오 로그인 url 가져오기 시작");
     // 백엔드 서버에서 카카오 로그인 URL 가져오기
-    const response = await axios.get("http://localhost:8080/api/v1/public/auth/kakao-url");
+    const response = await axios.get("/public/auth/kakao-url");
     console.log("api 응답 - response.data : ", response.data);
 
     const loginUrl = response.data.kakaoLoginUrl;
