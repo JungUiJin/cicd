@@ -59,7 +59,7 @@ public class KakaoLoginController {
 
             // 프론트엔드의 login-success 페이지로 리디렉트하며 쿼리 파라미터에 토큰 포함
             String redirectUrl = String.format(
-                    "http://localhost:5173/login-success?accessToken=%s&refreshToken=%s",
+                    "/login-success?accessToken=%s&refreshToken=%s",
                     token.getAccessToken(),
                     token.getRefreshToken()
             );
